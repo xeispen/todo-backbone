@@ -1,6 +1,8 @@
 /*global Backbone */
+// if app exists, don't do anything. If not, set to empty object
 var app = app || {};
 
+// Immediately Invoked Function Expression
 (function () {
 	'use strict';
 
